@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://s02l00mbqro7"]
+
+[ext_resource type="Script" path="res://scripts/demo.gd" id="1_tqfh0"]
+
+[node name="TraumaLabDemo" type="Node3D" unique_id=2050327460]
+script = ExtResource("1_tqfh0")
+
+[node name="MainCamera" type="Camera3D" parent="." unique_id=845326170]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, 0, 4.5, 7)
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=1721492081]
+transform = Transform3D(0.81915206, 0.43938506, -0.36868784, 0, 0.64278764, 0.76604444, 0.57357645, -0.62750685, 0.5265408, 0, 0, 0)
+light_energy = 1.2
+shadow_enabled = true
